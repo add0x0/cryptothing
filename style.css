@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+}
+
+.header, .menu, .usr-acc, .menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    max-width: 1920px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#logo {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-left: 25px;
+}
+
+#logo span, .cover span h1 span, .cover span h2 span {
+    color: #1E90FF;
+}
+
+.menu-section {
+    width: 50%;
+}
+
+.menu span a {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.menu span a:hover {
+    color: #1E90FF;
+}
+
+.menu span {
+    margin: 0 15px 0 15px;
+}
+
+.usr-acc {
+    margin-right: 25px;
+}
+
+.usr-acc button {
+    padding: 8px 25px;
+    margin: 0px 15px;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.usr-acc button:hover {
+    cursor: pointer;
+}
+
+#signUp {
+    background-color: #1E90FF;
+}
+
+#logIn {
+    background-color: #000;
+}
+
+.content {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.cover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover img {
+    display: block;
+    width: 40%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.cover span h1 {
+    font-weight: 600;
+    font-size: 6em;
+    margin: 0;
+}
+
+.cover span h2 {
+    font-size: 4em;
+    margin: 0;
+}
